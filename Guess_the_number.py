@@ -16,16 +16,21 @@ attempt = int(input("Enter your guess:  "))
 
 count = 1
 while isNotEqual(attempt, hidden_number):
-    try :
+    try:
         count += 1
         print("!" * 50)
         attempt = int(input("Incorrect. Try again: "))
-        print("You've entered",count , "attempts")
+        print("You've entered", count, "attempts")
     except ValueError:
-        print("Oops! That was not valid number. Try again..."
-        
+        print("Oops!  That was no valid number.  Try again...")
+
 print("\n" * 10)
-print("="*50)
+print("=" * 50)
 print("You're correct, the hidden number was", hidden_number)
-print("You guessed correctly in", count , "attempts.")
-print("="*50)
+print("You guessed correctly in", count, "attempts.")
+print("=" * 50)
+
+
+
+
+
