@@ -7,8 +7,8 @@ jobs: # define the workflow
     runs-on: windows-latest # select os
     steps:      #set the steps
       - uses: actions/checkout@v1       
-      - uses: actions/setup-python@v2 #to use pythobn 
+      - uses: actions/setup-python@v2 #to use python 
         with:
           python-version: '3.8' # select python version 3.8
-      - name: Python unit tests # integret librery for test
+      - name: Python unit tests # integret library for test
         run:  python3 -m unittest test_guess_the_number.py # run the test.
