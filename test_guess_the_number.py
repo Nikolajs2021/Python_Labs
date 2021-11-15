@@ -9,5 +9,5 @@ class TestInputValidation(unittest.TestCase): # testing the functions with diffe
         self.assertFalse(isNotEqual(2, 2))    # the function acceptin 2 int and when it == returns FALSE
     def test_isInt(self):                     # checking the int and except one value
         self.assertTrue(isInteger(1))         # return TRUE when int pass
-    def test_isNotInt(self):                  # checking the is not int and excepts one value
-        self.assertFalse(isInteger('not int'))# return FALSE when  none int pass
+    def test_isNotInt(self):                  # checking the value is not int and excepts one value
+        self.assertFalse(isInteger('not int'))# return FALSE when not int pass
