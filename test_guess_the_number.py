@@ -1,8 +1,8 @@
 from gues_number_helper import isNotEqual, isInteger # import the functions for test
 
-import unittest # call the function unittest
+import unittest                               # call the function unittest
 
-class TestInputValidation(unittest.TestCase): # creating for the test, testing the functions with different values
+class TestInputValidation(unittest.TestCase): # testing the functions with different values
     def test_not_equlal_values(self):         # expected output TRUE when not equales pass
         self.assertTrue(isNotEqual(2, 3))     # the function acceptin 2 int and when it != returns TRUE
     def test_equal_valus(self):               # expected output FALSE when the values are equale
