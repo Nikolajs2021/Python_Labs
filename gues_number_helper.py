@@ -1,4 +1,4 @@
-# This function can be tested
+# This function we are using in the main code.
 def isNotEqual(attempt, input):
     return attempt != input
 def isInteger(user_inp):
